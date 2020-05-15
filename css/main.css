@@ -1,0 +1,117 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');*/
+
+h1,h2,h3{
+    
+font-family: 'Montserrat', sans-serif !important;
+    color: white;
+font-weight: 900 !important;
+}
+form{
+    font-family: 'Montserrat', sans-serif !important;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .logoStyle {
+    padding: 3px;
+}
+    
+    h1,h2,h3{
+    
+font-family: 'Montserrat', sans-serif !important;
+    
+font-weight: 900;
+font-size:25px !important;
+}
+
+}
+
+img{max-width:100%}
+header {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.card{
+    background-color: gray;
+    padding: 15px;
+    border-radius: 5px;
+}
+footer {
+    background: #20253b;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.copyright {
+    padding: 20px;
+    font-family: arial;
+    font-weight: 300;
+}
+
+.copyright a {
+    color: #FF9800;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(#000000ba, #000000ba), url(../logo/darkmap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+}
+form input[type=text]{
+    padding: 5px;
+}
+form input[type=password]{
+    padding: 5px;
+}
+form textarea{
+    padding: 5px;
+}
+form input[type=submit]{
+    padding:10;
+    padding-left: 20;
+    padding-right: 20;
+    background-color: rgb(25, 175, 50);
+    cursor: hand;
+    color: white;
+    border:none;
+}
+form input[type=submit]:hover{
+    background-color: rgb(17,125,26);
+}
+button{
+    padding:10;
+    padding-left: 20;
+    padding-right: 20;
+    background-color: rgb(25, 175, 50);
+    cursor: hand;
+    color: white;
+    border:none;
+}
+button:hover{
+    background-color: rgb(17,125,26);
+}
+.info{
+    color: white;
+    width:99%;
+    background-color: #4BB135;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}.error{
+    color: white;
+    width:99%;
+    background-color: rgb(175, 15, 25);
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
